@@ -51,6 +51,7 @@ Evaluate the model with the testing data.
 Developed by : M.vivek reddy
 Reg : 212221240030
 ```
+~~~
 from google.colab import auth
 auth.authenticate_user()
 import gspread
@@ -91,6 +92,7 @@ model.evaluate(X_test1,y_test)
 X_n1 = [[25]]
 X_n1_1 = Scaler.transform(X_n1)
 model.predict(X_n1_1)
+~~~
 ## Dataset Information
 
 ![nn2](https://github.com/Vivekreddy8360/basic-nn-model/assets/94525701/3a11984d-44ee-4515-bdba-5174a1774ca3)
@@ -115,3 +117,6 @@ model.predict(X_n1_1)
 
 
 ## RESULT
+Thus a neural network regression model for the given dataset is written and executed successfully
+
+
